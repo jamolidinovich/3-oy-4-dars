@@ -1,0 +1,330 @@
+/* logo */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+}
+
+.logo__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo__container .nav a{
+    text-decoration: none;
+    margin-right: 40px;
+    margin-top: 52px;
+    color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 16px; /* 106.667% */
+   
+}
+
+.logo__container .nav a:hover{
+   color: blue;
+}       
+
+.logotiv{
+    display: flex;
+    align-items: center;
+    /* margin-top: 15px; */
+}
+.nav button{
+    color: var(--1, #FFF);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 138.462% */
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    padding: 15px;
+    margin-left: 42px;
+}
+
+.vxod img{
+    position: absolute;
+    top: 10px;
+}
+
+
+.nav button:hover{
+    color: black;
+    background: rgb(255, 255, 255);
+}
+
+/* header */
+.header__container{
+    max-width: 1800px;
+    width: 100%;
+    border-radius: 36px;
+   background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);
+   display: flex;
+   margin-bottom: 160px;
+}
+.description{
+    margin-left: 80px;
+}
+.description h2{
+    color: var(--4, #FFF);
+    font-family: Gilroy;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 80px; /* 111.111% */
+    width: 715px;
+    margin-top: 96px;
+    margin-bottom: 8px;
+}
+
+.description p{
+    color:#c8bdbd;
+   
+    font-family: Gilroy;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 42px; /* 210% */
+    
+    margin-left: 10px;
+    width: 707px;
+    margin-bottom: 36px;
+}
+
+.description .adress{
+    color: var(--1, #FFF);
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 105.882% */
+    border-radius: 36px;
+    background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+    box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+    padding: 24px;
+    margin-bottom: 109px;
+}
+
+
+.description .adress:hover{
+    color: black;
+    background: #FFF;
+}
+
+.header h3{
+    width: 477px;
+    color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 50px; /* 113.636% */
+    margin-left: 70px;
+    margin-bottom: 40px;
+    
+
+}
+
+.header .img{
+    margin-right: 120px;
+}
+
+/* hero */
+.hero__container{
+    max-width: 1440px;
+    width: 100%;
+}
+
+
+.picture{
+    display: flex;
+ 
+}
+
+.picture img:hover{
+    background: var(--6, #F2F6FC);}
+
+.picture .img1{
+   
+    display: flex;
+    align-items: center; 
+    width: 179px;
+    height: 100px;
+    flex-shrink: 0;
+    
+}
+.picture img{
+   
+}
+
+
+.picture .img1:hover{
+    background: var(--6, #F2F6FC);
+}
+.picture .img2{
+    display: flex;
+    align-items: center;
+    width: 179px;
+    height: 100px;
+    flex-shrink: 0;
+}
+.picture .img2:hover{
+    background: var(--6, #F2F6FC);}
+.picture .img3{
+    display: flex;
+    align-items: center;
+    width: 179px;
+    height: 100px;
+    flex-shrink: 0;
+}
+.picture .img3:hover{
+    background: var(--6, #F2F6FC);}
+
+.picture .img4{
+    display: flex;
+    align-items: center;
+    width: 179px;
+    height: 100px;
+    flex-shrink: 0;
+}
+.picture .img4:hover{
+    background: var(--6, #F2F6FC);}
+
+.picture .img5{
+    display: flex;
+    align-items: center;
+    width: 179px;
+    height: 100px;
+    flex-shrink: 0;
+}
+.picture .img5:hover{
+    background: var(--6, #F2F6FC);}
+
+.picture .img6{
+    display: flex;
+    align-items: center;
+    width: 179px;
+    height: 100px;
+    flex-shrink: 0;
+}
+.picture .img6:hover{
+    background: var(--6, #F2F6FC);}
+
+    /* main */
+    .main__container .text h4{
+    color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+    width: 400px;
+    margin-left: 80px;
+    margin-bottom: 40px;
+    margin-top: 134px;
+    
+    }
+    .main__container{
+        display: flex;
+    }
+
+    .text .flag{
+        /* display: flex;
+        align-items: center; */
+        width: 400px;
+        height: 120px;
+        border-radius: 16px;
+        background: #F2F6FC;
+        padding: 10px;
+        margin-left: 50px;
+        margin-bottom: 160px;
+       
+    }
+    .text .shirt{
+        margin-left: 50px;
+    }
+
+    .layer{
+        display: flex;
+        align-items:center;
+        position: relative;
+    }
+    .layer .strelka{
+       position: absolute;
+       /* right: -40px; */
+       left: 200px;
+    }
+    .flag{
+        display: flex;
+        align-items: center;
+        padding: 33px 10px;
+       
+    }
+    .flag .span2{
+     
+     margin-left: 10px;
+     color: var(--1, #1F2428);
+    font-family: Gilroy;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
+    }
+      
+    .flag img{
+        margin-left: 20px;
+    }
+
+    .flag span{
+        margin-left: -120px;
+    }
+
+    .img img{
+        margin-top: 54px;
+        margin-bottom: 30px;
+       
+    }
+    .img p{
+        color: var(--1, #1F2428);
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 24px; /* 133.333% */
+    }
+    .img span{
+        color: var(--1, #1F2428);
+text-align: center;
+font-family: Gilroy;
+font-size: 26px;
+font-style: normal;
+font-weight: 700;
+line-height: 36px; /* 138.462% */
+    }
+
+    .img .narx{
+        color: var(--7, #01CD7D);
+        font-family: Gilroy;
+        font-size: 26px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 36px;
+    }
+
+    .layer .strelka2{
+margin-left: 280px;
+    }
+    
+    
+    
