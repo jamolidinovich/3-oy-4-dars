@@ -302,15 +302,16 @@
         font-style: normal;
         font-weight: 300;
         line-height: 24px; /* 133.333% */
+        margin-bottom: 180px;
     }
     .img span{
         color: var(--1, #1F2428);
-text-align: center;
-font-family: Gilroy;
-font-size: 26px;
-font-style: normal;
-font-weight: 700;
-line-height: 36px; /* 138.462% */
+    text-align: center;
+    font-family: Gilroy;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px; /* 138.462% */
     }
 
     .img .narx{
@@ -323,8 +324,45 @@ line-height: 36px; /* 138.462% */
     }
 
     .layer .strelka2{
-margin-left: 280px;
+    margin-left: 280px;
     }
+
+
+    .picture__container{
+        max-width: 1400px;
+        width: 100%;
+       
+       
+    }
+    .picture_footer{
+        display: flex;
+    }
+    .picture1{
+        display: flex;
+        align-items: center;
+        margin-right: 70px;
+        border-radius: 16px;
+        background: var(--5, #FFF);
+        box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+       
+    }
+    .chiziq{
+        margin-left: 70px;
+        height: 135px;
+       
+
+    }
+    
+    .ikon{
+        margin-right: 26px;
+        margin-bottom: 227px;
+        
+    }
+    .ikon1{
+        margin-right: 26px;
+        margin-left: 51px;
+    }
+
     
     
     
