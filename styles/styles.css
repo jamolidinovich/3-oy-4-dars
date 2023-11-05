@@ -363,6 +363,107 @@
         margin-left: 51px;
     }
 
+    /* main-footer */
+    .main-footer__container{
+        max-width: 1800px;
+        width: 100%;
+       margin-left: auto;
+       margin-right: auto;
+       border-radius: 36px;
+       background: linear-gradient(80deg, #5B52A3 1.08%, #40B8EA 100%);
+       display: flex;
+       margin-top: 160px;
+    }
     
-    
-    
+    .picture__footer{
+        margin-left: 150px;
+    }
+    .text h4{
+        color: var(--4, #FFF);
+        font-family: Gilroy;
+        font-size: 30px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px; /* 133.333% */
+        width: 763px;
+        margin-bottom: 11px;
+        margin-top: 111px;
+    }
+    .text p{
+        color: var(--4, #d7d0d0);
+        font-family: Gilroy;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px; /* 166.667% */
+        width: 834px;
+        margin-left: 65px;
+    }
+
+    .text button{
+        color: var(--1, #FFF);
+        text-align: center;
+        font-family: Gilroy;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 18px; /* 105.882% */
+        width: 240px;
+        height: 66px;
+        flex-shrink: 0;
+        border-radius: 36px;
+        background: linear-gradient(90deg, #00C97B 0%, #00D981 96.96%);
+        box-shadow: 0px 4px 4px 0px rgba(1, 203, 124, 0.20);
+        padding: 24px;
+        margin-left: 65px;
+        margin-top: 30px;
+    }
+    .text button:hover{
+        color: #1F2428;
+        background: #5B52A3;
+    }
+
+    /* item */
+    .item__container{
+        max-width: 1400px;
+        width: 100%;
+      
+    }
+    .item-table{
+        border-radius: 16px;
+        background: var(--5, #FFF);
+        box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+       
+    }
+    .text-top h3{
+        color: var(--1, #1F2428);
+        font-family: Gilroy;
+        font-size: 44px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 56px; /* 127.273% */
+        width: 824px;
+        margin-bottom: 20px;
+        margin-left: 90px;
+        margin-top: 60px;
+    }
+
+    .text-top p{
+        color: var(--1, #1F2428);
+        font-family: Gilroy;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: 36px; /* 180% */
+        width: 760px;
+        margin-left: 90px;
+       
+    }
+
+    .list__container{
+        margin-left: 90px;
+        margin-top: 60px;
+    }
+    .text-top img{
+margin-top: 60px;
+    }
